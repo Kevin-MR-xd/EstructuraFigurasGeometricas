@@ -30,6 +30,7 @@ public class Figuras {
         area = 6 * Math.pow(n1, 2);
     }
     public void Resultado (){
-         JOptionPane.showMessageDialog(null,"El resultado es: "+area);
+        String mensaje=String.format("%5.5f", area);
+        JOptionPane.showMessageDialog(null,"El resultado es: "+mensaje);
     }
 }
